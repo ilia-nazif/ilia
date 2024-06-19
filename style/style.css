@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 90%;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.Search{
+    margin-top: 5px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 355px;
+    height: 24px;
+}
+.dokme{
+    width: 120px;
+    height: 24px;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+nav ul li {
+    list-style-type:  none;
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(143, 141, 141);
+    border-radius: 7px;
+}
+nav{
+    width: 110%;
+    height: 15%;
+    background-color: rgb(187, 185, 185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 0 5px black;
+}
+.parent1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.item{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.hi1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.hi{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parent2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid rgb(0, 0, 0);
+    gap: 10px;
+}
+.item2{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(240, 239, 239); */
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid rgb(0, 0, 0);
+     gap: 10px;
+}
+.item3{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(240, 239, 239); */
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid rgb(0, 0, 0);
+     gap: 10px;
+}
+.item4{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(240, 239, 239); */
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 70px;
+    gap: 10px;
+}
+.child{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.child1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    width: 110%;
+    height: 15%;
+    background-color: rgb(227, 223, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 0 2px black;
+    margin-top: 30px;
+}
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+footer ul li a {
+    color: black;
+    padding: 12px;
+    font-size: 15px;
+    text-decoration: none;
+} 
+@media(max-width:768px)
+{
+    nav ul li a{
+        font-size: 15px;
+    }
+    nav{
+        width: 100%;
+    }
+    .parent1{
+        width: 78%;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+        margin-top: 30px;
+        column-gap: 50px;
+        margin-left: 70px;
+    }
+    .hi{
+        width: 100%;
+        display: flex;
+    }
+    .hi1{
+        width: 100%;
+        display: flex;
+    }
+    .parent2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .child{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+     .child1{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+     }
+     footer{
+        width: 100%;
+        height: 60px;
+     }
+}
